@@ -88,7 +88,7 @@ Process{
             }
         }
     } else {
-        Write-Host -ForegroundColor DarkGreen "No vulnerabilities found on this host or network."
+        Write-Output "No vulnerabilities found on this host or network."
     }
 }
 End{
